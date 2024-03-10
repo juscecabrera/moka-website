@@ -4,6 +4,7 @@ import Hero from "./components/IndexComponents/Hero"
 import Especiales from './components/IndexComponents/Especiales';
 import Sedes from './components/IndexComponents/Sedes';
 import Testimonials from './components/IndexComponents/Testimonials';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Especiales />
       <Sedes />
       <Testimonials />
+      <Footer />
     </div>
   );
 }

@@ -4,3 +4,11 @@
 @import "./Sedes";
 @import "./Testimonials";
 @import "./TestimonialsCard";
+@import "./Footer";
+
+html {
+    scroll-behavior: smooth;
+    background-image: url("../images/backgroundimg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}

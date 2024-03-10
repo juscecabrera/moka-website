@@ -1,0 +1,29 @@
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 4fr 2fr 4fr;
+    margin-bottom: 60px;
+    padding: 90px;//así está perfecto
+    font-size: 18px;
+    line-height: 40px;
+    .footer-left-wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        grid-column: 1;
+        margin-left: 40%;
+    }
+    .footer-center-wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        grid-column: 2;
+        margin: 0;
+    }
+    .footer-right-wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        grid-column: 3;
+        margin-right: 40%;
+    }
+}
