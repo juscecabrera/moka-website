@@ -1,0 +1,18 @@
+.testimonials-wrapper {
+    margin: 60px 400px 60px 400px;
+    h2 {
+        font-size: 100px;
+        letter-spacing: 10px;
+        margin-bottom: 20px;
+    }
+    .testimonials-subtitle {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .testimonials-cards-wrapper {
+        background-color: rgb(224,156,140);
+        height: 420px;
+        display: flex;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hero-wrapper {
+    margin: 80px 400px 60px 400px;
+    .hero-h1 {
+        font-weight: bold;
+        font-size: 100px;
+    }
+    .hero-h2 {
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+    .hero-cta {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .hero-img-text-wrapper {
+        display: flex;
+        gap: 60px;
+    }
+    .hero-img-left {
+        border-bottom-right-radius: 200px;
+        width: 320px;
+        height: 640px;
+    }
+    .hero-img-right {
+        border-radius: 200px;
+        margin-left: 50px;
+    }
+    .hero-text-wrapper {
+        
+    }
+}

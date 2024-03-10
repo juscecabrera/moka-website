@@ -1,0 +1,59 @@
+.especiales-wrapper {
+    background-color: rgba(0,0,0,85%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    height: 850px;
+    margin: 0 650px 10px 650px;
+    .especiales-title1 {
+        font-size: 65px;
+        color: white;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+    .especiales-title2 {
+        font-size: 65px;
+        color: white; 
+        font-weight: bold;
+    }
+    .especiales-title3 {
+        font-size: 65px;
+        color: purple;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    .especiales-servicios-wrapper {
+        display: grid;
+        grid-template-columns: 12fr 3fr;
+        grid-template-rows: 5;
+        margin: 5px;
+        p {
+            color: white;
+            font-size: 24px;
+            padding: 15px;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+        .especiales-servicios {
+            margin-right: 180px;
+            padding: 0;
+        }
+    }
+    button {
+        background-color: rgba(0,0,0,5%);
+        border: 2px solid white;
+        border-radius: 8px;
+        width: 220px;
+        padding: 15px;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        
+    }
+    button:hover {
+        border: 2px solid rgba(0,0,0,0%);
+        transition: 0.3s;
+    }
+}
