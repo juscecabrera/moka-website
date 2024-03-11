@@ -11,6 +11,11 @@
         flex-direction: column;
         grid-column: 1;
         margin-left: 40%;
+        img {
+            width: 30px;
+            background-color: black;
+            margin: 20px;
+        }
     }
     .footer-center-wrapper {
         display: flex;
@@ -26,4 +31,5 @@
         grid-column: 3;
         margin-right: 40%;
     }
+
 }

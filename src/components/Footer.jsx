@@ -1,4 +1,6 @@
 import "../stylesheets/main.css";
+import GoogleLogo from "../images/googlelogo.svg";
+import IGLogo from "../images/iglogo.svg"
 
 function Footer () {
     return (
@@ -6,8 +8,10 @@ function Footer () {
         <div className="footer-wrapper">
           <div className="footer-left-wrapper">
             <h4>Moka Nails | Estudio de Uñas</h4>
-            <a>IG Logo</a>
-            <a>Google Logo</a>
+            <div className="footer-left-img-wrapper">
+              <a><img src={IGLogo}/></a>
+              <a><img src={GoogleLogo}/></a>
+            </div>
             {/* aqui seria bueno agregar el logo de FB */}
           </div>
           <div className="footer-center-wrapper">

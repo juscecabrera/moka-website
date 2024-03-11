@@ -1,34 +1,68 @@
 .hero-wrapper {
-    margin: 80px 400px 60px 400px;
+    margin: 80px 400px 0 400px;
     .hero-h1 {
         font-weight: bold;
         font-size: 100px;
+        margin-bottom: 20px;
     }
     .hero-h2 {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         font-weight: normal;
     }
     .hero-cta {
         width: 200px;
         height: 50px;
         font-size: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         display: block;
+        background-color: white;
+        border: 2px solid #f27960;
+        color: #f27960;
+        cursor: pointer;
     }
     .hero-img-text-wrapper {
         display: flex;
         gap: 60px;
+        line-height: 25px;
+        .hero-img-left {
+            border-bottom-right-radius: 200px;
+            width: 320px;
+            height: 640px;
+        }
+        .hero-img-right {
+            position: relative;
+            top: -343px;
+            border-radius: 200px;
+            right: -70px;
+        }
+        .hero-text-wrapper {
+            font-size: 100%;
+            margin-right: -70px;
+            line-height: 27px;
+            .hero-text-title {
+                margin-bottom: 10px;
+                font-size: 20px;
+            }
+            .hero-text-subtitle {
+                color: #fc10fc;
+                font-weight: bold;
+                margin-bottom: 20px;
+                font-size: 19px;
+            }
+            :nth-child(3) {
+                margin-bottom: 20px;
+            }
+            ul {
+                li {
+                    margin-bottom: 8px;
+                    font-size: 16px;
+                    margin-left: 20px;
+                }
+            }
+            .hero-text-2 {
+                margin-bottom: 20px;
+            }
     }
-    .hero-img-left {
-        border-bottom-right-radius: 200px;
-        width: 320px;
-        height: 640px;
-    }
-    .hero-img-right {
-        border-radius: 200px;
-        margin-left: 50px;
-    }
-    .hero-text-wrapper {
-        
+    
     }
 }
