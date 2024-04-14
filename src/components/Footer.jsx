@@ -16,14 +16,14 @@ function Footer () {
           </div>
           <div className="footer-center-wrapper">
             <h4>Contáctanos:</h4>
-            <a>WhatsApp: 984 907 847</a> 
+            <a className="footer-center-text">WhatsApp: 984 907 847</a> 
             {/* El link debe mandar al Wsp api */}
-            <p>Surco: Av. Benavides 3663, Oficina 11</p>
+            <p className="footer-center-text">Surco: Av. Benavides 3663, Oficina 11</p>
           </div>
           <div className="footer-right-wrapper">
-            <h4>Horario de atención:</h4>
-            <p>Lun – Vie: 10am – 8pm</p>
-            <p>Sáb: 10am – 6pm</p>
+            <h4 className="footer-right-title">Horario de atención:</h4>
+            <p className="footer-right-text">Lun a Vie: 10am a 8pm</p>
+            <p className="footer-right-text footer-right-text-2">Sáb: 10am a 6pm</p>
           </div>
         </div>
         </>

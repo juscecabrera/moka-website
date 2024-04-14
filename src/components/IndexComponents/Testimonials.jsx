@@ -13,7 +13,7 @@ function Testimonials () {
           <div className="testimonials-cards-wrapper">
             <TestimonialsCard 
               img = {TestimonialCardImg1}
-              text ={["¡Excelente atención!", <br />, <br />, " Ana se fija en cada detalle para dejar las uñas increíbles tal y como las quieres."]
+              text ={["¡Excelente atención!", <br />,<br />, " Ana se fija en cada detalle para dejar las uñas increíbles tal y como las quieres."]
                  }
               client = "Cielo Huerta"
               service = "Uñas Acrílicas con Diseño"
