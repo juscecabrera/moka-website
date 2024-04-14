@@ -1,30 +1,42 @@
 import "../stylesheets/main.css";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
 import MokaLogo from "../images/MokaLogo.png";
 import GoogleLogo from "../images/googlelogo.svg";
 import FBLogo from "../images/fblogo.svg";
 import IGLogo from "../images/iglogo.svg";
+import Home from "../pages/home.js";
+import Designs from "../pages/designs.js";
 
 function NavBar() {
     return (
       <>
+      <Router>
         <div className="navbar-background">
           <div className="navbar-wrapper">
             <div className="navbar-top-wrapper">
-              <img className="navbar-img" src={MokaLogo}/>
+              {/* <img className="navbar-img" src={MokaLogo}/> */}
               <div className="navbar-text-wrapper">
                 <ul>
-                  <li>Inicio</li>
-                  <li>Diseños</li>
-                  <li>
+                  <Link to = "/" target="blank"><li>Inicio</li></Link>
+                  <Link to = "/designs" target="blank"><li>Diseños</li></Link>
+                  <Link to = "/services" target="blank"><li>
                     <select>
+                      {/* creo que aqui tambien tengo que usar links */}
+                      {/* tambien tengo que arreglar el select */}
                       <option value={"0"}>Servicios</option>
                       <option value={"1"}>Lista de precios</option>
                       <option value={"2"}>Manicura</option>
                       <option value={"3"}>Extensiones</option>
                     </select>
-                  </li>
-                  <li>Contáctanos</li>
+                  </li></Link>
+                  <Link to = "/contact" target="blank"><li>Contáctanos</li></Link>
                 </ul>
+                
                 <button type="submit" formMethod="get"><a target="blank" href="https://api.whatsapp.com/message/BREEXDFHEFX2C1?autoload=1&app_absent=0">Reserva tu Cita</a></button>
               </div>
             </div>
@@ -37,6 +49,13 @@ function NavBar() {
             </div>
           </div>
         </div>
+        <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/designs" element={<Designs />} />
+                  {/* <Route path="" element={} />
+                  <Route path="" element={} /> */}
+                </Routes> 
+        </Router>
       </>
     )
 }
