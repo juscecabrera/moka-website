@@ -1,55 +1,47 @@
 .especiales-wrapper {
     background-color: rgba(0,0,0,85%);
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
-    height: 850px;
-    margin: 0 650px 10px 650px;
-    .especiales-title1 {
-        font-size: 65px;
+    margin: 5rem 2rem;
+    padding: 1.2rem;
+    .especiales-title1, .especiales-title2 {
+        font-size: 1.7rem;
         color: white;
         font-weight: bold;
-        margin-top: 100px;
-    }
-    .especiales-title2 {
-        font-size: 65px;
-        color: white; 
-        font-weight: bold;
+        margin: 0;
+        padding-top: 1rem;
     }
     .especiales-title3 {
-        font-size: 65px;
+        font-size: 1.7rem;
         color: purple;
-        margin-bottom: 30px;
         font-weight: bold;
+        margin-bottom: 2rem;
     }
     .especiales-servicios-wrapper {
-        display: grid;
-        grid-template-columns: 12fr 3fr;
-        grid-template-rows: 5;
-        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         p {
             color: white;
-            font-size: 24px;
-            padding: 15px;
-            margin-bottom: 25px;
+            font-size: 1.05rem;
             font-weight: 500;
         }
         .especiales-servicios {
-            margin-right: 180px;
-            padding: 0;
+            margin: 1rem 0;
+        }
+        .especiales-precio {
+            font-weight: bold;
         }
     }
     button {
         background-color: rgba(0,0,0,5%);
         border: 2px solid white;
-        border-radius: 8px;
-        width: 220px;
-        padding: 15px;
         color: white;
-        font-size: 24px;
+        padding: 0.7rem 1.3rem;
+        margin: 1.7rem 0;
         cursor: pointer;
+        font-size: 1.3rem;
         
     }
     button:hover {

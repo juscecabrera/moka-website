@@ -11,8 +11,8 @@ function Home() {
     <div className="Home">
       <Hero />
       <Especiales />
-      <Sedes />
-      <Testimonials />
+      {/* <Sedes /> */}
+      {/* <Testimonials /> */}
     </div>
   );
 }

@@ -4,34 +4,44 @@
     scroll-behavior: smooth;
 }
 
+//13 abril 2024 empiezo a cambiar el design a Mobile First
+
 .navbar-background {
     background-color: #f8f4fc;
 }
 .navbar-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-    grid-template-rows: 2;
-    margin: 0 400px;
-    background-color: #f8f4fc;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     .navbar-top-wrapper {
         display: flex;
-        grid-column: 2;
-        grid-row: 1;
+        .navbar-img {
+            width: 5rem;
+            padding: 1rem;
+        }
+        a {
+            .navbar-hamburger-logo {
+                margin-left: 7rem;
+                margin-top: 1.6rem;
+            }
+        }
+        
     }
-    .navbar-img {
-        width: 7%;
-        margin: 10px 10px 0 0;
-    }
+    //Links y textos
     .navbar-text-wrapper {
-        display: flex;
+        display: none;
         gap: 8px;
         align-items: center;
         ul {
             display: flex;
             list-style: none;
-            li {
+            .navbar-text-link {
                 margin: 18px;
                 font-weight: bold;
+                text-decoration: none;
+                color: black;
                 select {
                     font-weight: bold;
                     background-color: #f8f4fc;
@@ -51,6 +61,7 @@
             }
         }
         button {
+            display: block;
             margin-left: 380px;
             padding: 15px 10px;
             width: 180px; 
@@ -64,36 +75,49 @@
             }
         }
     }
+
+    //Boton de reserva navbar
+    .navbar-reservation-button{
+        background-color: black;
+        border: none;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 1.2rem;
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    //Barra de navegacion 
     .navbar-search-wrapper {
         background-color: #d09c9c;
-        width: 1070px;
-        grid-row: 2;
-        grid-column: 2;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        padding: 10px;
+        width: 70%;
+        height: 100%;
+        padding: 0.9rem;
+        padding-top: 0.7rem;
         display: flex;
         align-items: center;
-        gap: 20px;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1rem;
         input {
-            padding: 12px;
-            margin-right: 40px;
+            padding: 0.8rem;
+            width: 90%;
             background-color: #d6aaaa;
             border: none;
             color: white;
         }
         a {
+            display: none;
             text-decoration: none;
             color: white;
             font-weight: bold;
             font-size: 23px;
         }
-        .navbar-search-logo-google {
-            width: 20px;
-            margin-left: 350px;
-        }
-        .navbar-search-logo {
-            width: 20px;
+        .navbar-search-number {
+            display: block;
         }
     }
 }
