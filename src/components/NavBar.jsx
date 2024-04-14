@@ -11,11 +11,19 @@ import FBLogo from "../images/fblogo.svg";
 import IGLogo from "../images/iglogo.svg";
 import Home from "../pages/home.js";
 import Designs from "../pages/designs.js";
-import HamburgerLogo from "../images/hamburger-navbar.svg"
+import HamburgerMenu from "../images/hamburger-navbar.svg"
 import Services from "../pages/services.js";
 import Contact from "../pages/contact.js";
+import { useState } from "react";
 
 function NavBar() {
+
+  let [showMenu, setShowMenu] = useState(true)
+
+  const handleShowMenu = () => {
+    setShowMenu(!showMenu)
+  }
+
     return (
       <>
       <Router>
@@ -23,7 +31,29 @@ function NavBar() {
           <div className="navbar-wrapper">
             <div className="navbar-top-wrapper">
               <img className="navbar-img" src={MokaLogo}/>
-              <a target="blank" href="https://www.google.com"><img className="navbar-hamburger-logo" src={HamburgerLogo}/></a>
+              <a target="blank" onClick={handleShowMenu}><img id="ham-menu" className="navbar-hamburger-logo" src={HamburgerMenu}/></a>
+              <div className={showMenu ? "navbar-hamburger-menu-show" : "navbar-hamburger-menu-noshow"}>
+              <div className="navbar-hamburger-menu-top"></div>
+                <ul>
+                  <li>Inicio</li>
+                  <li>Diseños</li>
+                  <li>Servicios</li>
+                    <ul>
+                      <li>Lista de precios</li>
+                      <li>Manicura</li>
+                        <ul>
+                          <li>Manicura Gel</li>
+                          <li>Manicura Rubber Gel</li>
+                        </ul>
+                      <li>Extensiones</li>
+                        <ul>
+                          <li>Uñas acrílicas</li>
+                          <li>Uñas Polygel</li>
+                        </ul>
+                    </ul>
+                  <li>Contáctanos</li>
+                </ul>
+              </div>
               </div>
               <button type="submit" formMethod="get" className="navbar-reservation-button"><a target="blank" href="https://api.whatsapp.com/message/BREEXDFHEFX2C1?autoload=1&app_absent=0">Reserva tu Cita</a></button>
               <div className="navbar-text-wrapper">

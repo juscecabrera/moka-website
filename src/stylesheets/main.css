@@ -25,6 +25,39 @@
   margin-left: 7rem;
   margin-top: 1.6rem;
 }
+.navbar-wrapper .navbar-top-wrapper .navbar-hamburger-menu-show {
+  position: absolute;
+  top: 6rem;
+  z-index: 100;
+  width: 80%;
+  font-weight: bold;
+  background-color: white;
+}
+.navbar-wrapper .navbar-top-wrapper .navbar-hamburger-menu-show .navbar-hamburger-menu-top {
+  background-color: blue;
+  height: 0.2rem;
+  transition: 1s ease-in-out;
+}
+.navbar-wrapper .navbar-top-wrapper .navbar-hamburger-menu-show ul {
+  list-style: none;
+  padding: 0 0.2rem;
+}
+.navbar-wrapper .navbar-top-wrapper .navbar-hamburger-menu-show ul li {
+  font-size: 1.1rem;
+  margin: 0.2rem 0;
+  padding: 0.8rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.347);
+}
+.navbar-wrapper .navbar-top-wrapper .navbar-hamburger-menu-show ul li:hover {
+  background-color: rgba(128, 128, 128, 0.115);
+  transition: 0.6s;
+  cursor: pointer;
+  color: rgba(128, 128, 128, 0.856);
+}
+.navbar-wrapper .navbar-top-wrapper .navbar-hamburger-menu-noshow {
+  display: none;
+  transition: 1s ease-in-out;
+}
 .navbar-wrapper .navbar-text-wrapper {
   display: none;
   gap: 8px;

@@ -27,6 +27,42 @@
                 margin-top: 1.6rem;
             }
         }
+        //Menu que aparece y desaparece
+        .navbar-hamburger-menu-show {
+            position: absolute;
+            top: 6rem;
+            z-index: 100;
+            width: 80%;
+            font-weight: bold;
+            background-color: white;
+            .navbar-hamburger-menu-top{
+                background-color: blue;
+                height: 0.2rem;
+                transition: 1s ease-in-out;
+            }
+            ul {
+                list-style: none;
+                padding: 0 0.2rem;
+                li {
+                    font-size: 1.1rem;
+                    margin: 0.2rem 0;
+                    padding: 0.8rem;
+                    border-bottom: 1px solid rgba(128, 128, 128, 0.347);
+                }
+                li:hover {
+                    background-color: rgba(128, 128, 128, 0.115);
+                    transition: 0.6s;
+                    cursor: pointer;
+                    color: rgba(128, 128, 128, 0.856);
+                }
+                
+            }   
+        }
+
+        .navbar-hamburger-menu-noshow {
+            display: none;
+            transition: 1s ease-in-out;
+        }
         
     }
     //Links y textos
