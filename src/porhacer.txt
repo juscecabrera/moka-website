@@ -1,0 +1,17 @@
+Al 14 abril 2024 2am
+
+- Menu Hamburguesa 
+    - Mejorar el estilo
+    - Mejorar la animacion de display
+    - Mejorar los margenes de las <li>
+
+- Todas las otras paginas
+
+- Todos los media queries
+
+Paginas por hacer: 
+ - Diseños (original)
+ - Servicios : Lista de precios
+    - Componente Seccion 
+    - Subcomponente servicio y precios
+ - Servicios: Manicura Gel, Manicura Rubber Gel, Uñas acrilicas y Polygel : 1 solo componente

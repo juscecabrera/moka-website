@@ -37,7 +37,8 @@ function NavBar() {
                 <ul>
                   <li>Inicio</li>
                   <li>Diseños</li>
-                  <li>Servicios</li>
+                  <Link to = "/services" target="blank" className="navbar-text-link">
+                  <li>Servicios</li></Link>
                     <ul>
                       <li>Lista de precios</li>
                       <li>Manicura</li>
