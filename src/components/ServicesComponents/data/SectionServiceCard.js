@@ -25,26 +25,26 @@ const sectionServiceCardPropsData = [
     {
         title : "Uñas Acrílicas con Tips",
         img : `${CardImg3}`,
-        text: [`Exfoliación de manos, limpieza y corte de uñas, limpieza de cutículas. Aplicación de acrílico polimerizado sobre extensiones con tips a la medida. Retoques mediante limado y pulido de las uñas.`, <br></br>,<br></br>, `Incluye esmaltado en gel semi-permanente en una amplia variedad de colores, con diseños simples a elección.`],
+        text: [`Exfoliación de manos, limpieza y corte de uñas, limpieza de cutículas. Aplicación de acrílico polimerizado sobre extensiones con tips a la medida. Retoques mediante limado y pulido de las uñas.`, <br></br>,<br></br>, `Incluye `, <strong>esmaltado en gel</strong>, ` semi-permanente en una amplia variedad de colores, con diseños simples a elección.`],
         price : "S/. 90"
     },
     {
         title : "Uñas Acrílicas Esculpidas",
         img : `${CardImg4}`,
-        text: [`Exfoliación de manos, limpieza y corte de uñas, limpieza de cutículas. Aplicación de acrílico polimerizado sobre molde retirable. Retoques mediante limado y pulido de las uñas. Permite un acabado más fino.`, <br></br>,<br></br>, `Incluye esmaltado en gel semi-permanente en una amplia variedad de colores, con diseños simples a elección.`],
+        text: [`Exfoliación de manos, limpieza y corte de uñas, limpieza de cutículas. Aplicación de acrílico polimerizado sobre molde retirable. Retoques mediante limado y pulido de las uñas. Permite un acabado más fino.`, <br></br>,<br></br>, `Incluye `, <strong>esmaltado en gel</strong>,  ` semi-permanente en una amplia variedad de colores, con diseños simples a elección.`],
         price : "S/. 100"
     },
     {
         title : "Uñas Esculpidas en Polygel",
         img : `${CardImg5}`,
-        text: [`Exfoliación de manos, limpieza y corte de uñas, limpieza de cutículas. Aplicación de Polygel sobre molde retirable. A diferencia de las acrílicas, las uñas en Polygel conservan mejor la uña natural y son más flexibles que las acrílicas, pero suelen durar menos tiempo.`, <br></br>,<br></br>, `Incluye esmaltado en gel semi-permanente en una amplia variedad de colores, con diseños simples a elección.`],
+        text: ["Exfoliación de manos, limpieza y corte de uñas, limpieza de cutículas. Aplicación de Polygel sobre molde retirable. A diferencia de las acrílicas, las uñas en Polygel", <strong> conservan mejor la uña natural</strong>, " y son más flexibles que las acrílicas, pero suelen durar menos tiempo.", <br></br>,<br></br>, "Incluye", <strong> esmaltado en gel </strong>,"semi-permanente en una amplia variedad de colores, con diseños simples a elección."],
         price : "S/. 110"
     },
     {
         title : "Retoque o Relleno (Acrílico y Polygel) & Cambio de Diseño",
         img : `${CardImg6}`,
         text: [`Limpieza de cutículas, recorte de extensiones (opcional), limado de las extensiones y relleno del área de crecimiento con material elegido.`, <br></br>,<br></br>, `Se aplica nuevamente el esmaltado en gel o el diseño que al que desee cambiar.`],
-        price : "S/. 80 (solo para uñas hechas en Moka Nails) + S/. 10 por cada uña que requiera rehacer por completo (despegadas o rotas)."
+        price : ["S/. 80 (solo para uñas hechas en Moka Nails)", <br></br> ,"+ S/. 10 por cada uña que requiera rehacer por completo (despegadas o rotas)."]
     },
     {
         title : "Pedicure Spa en Gel",

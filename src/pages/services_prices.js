@@ -5,7 +5,7 @@ import ListServices from '../components/ServicesComponents/ListServices';
 import SectionServices from '../components/ServicesComponents/SectionServices';
 
 
-function Services() {
+function ServicesPrices() {
   return (
     <div className="Services">
       <HeroServices />
@@ -15,4 +15,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default ServicesPrices;

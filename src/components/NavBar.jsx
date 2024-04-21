@@ -12,7 +12,7 @@ import IGLogo from "../images/iglogo.svg";
 import Home from "../pages/home.js";
 import Designs from "../pages/designs.js";
 import HamburgerMenu from "../images/hamburger-navbar.svg"
-import Services from "../pages/services.js";
+import Services from "../pages/services_prices.js";
 import Contact from "../pages/contact.js";
 import { useState } from "react";
 
@@ -40,7 +40,8 @@ function NavBar() {
                   <Link to = "/services" target="blank" className="navbar-text-link">
                   <li>Servicios</li></Link>
                     <ul>
-                      <li>Lista de precios</li>
+                      <Link to = "/services" target="blank" className="navbar-text-link">
+                    <li>Lista de precios</li></Link>
                       <li>Manicura</li>
                         <ul>
                           <li>Manicura Gel</li>
