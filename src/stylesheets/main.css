@@ -421,6 +421,7 @@
   padding: 3rem;
   color: white;
   margin: 1rem;
+  margin-bottom: 5rem;
 }
 .hero-services-banner-wrapper .hero-services-banner-h1 {
   line-height: 2rem;
@@ -443,14 +444,49 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: -1rem;
 }
 .list-services-icons-wrapper .list-services-icon {
-  margin: 3rem 0;
+  margin: 0.5rem 0;
   z-index: 1;
 }
 .list-services-icons-wrapper .list-services-icon-bg {
-  position: absolute;
-  top: 10rem;
+  position: relative;
+  bottom: 10rem;
+}
+.list-services-icons-wrapper .list-services-subtitle {
+  position: relative;
+  bottom: 7rem;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  z-index: 100;
+}
+
+.sectionservice-title {
+  font-size: 1.5rem;
+  margin: -1rem 0 1rem 2rem;
+}
+
+.sectionservicecard-wrapper .sectionservicecard-img {
+  margin: 0 2rem;
+  width: 80%;
+  border-radius: 2rem;
+}
+.sectionservicecard-wrapper .sectionservicecard-title {
+  font-size: 1.1rem;
+  margin: 1rem 1rem 1rem 2rem;
+}
+.sectionservicecard-wrapper .sectionservicecard-text {
+  margin: 1rem 2rem;
+  color: #9097a8;
+  line-height: 2rem;
+}
+.sectionservicecard-wrapper .sectionservicecard-price {
+  margin: 1rem 2rem 4rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-style: italic;
 }
 
 html {

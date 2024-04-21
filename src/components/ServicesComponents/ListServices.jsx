@@ -14,12 +14,16 @@ function ListServices () {
         <div className='list-services-icons-wrapper'>
             <img src={ListServicesIcon1} className='list-services-icon'></img>
             <img src={ListServicesIconBg1}className='list-services-icon-bg'></img>
+            <p className='list-services-subtitle'>Acrílico</p>
             <img src={ListServicesIcon2} className='list-services-icon'></img>
             <img src={ListServicesIconBg2}className='list-services-icon-bg'></img>
+            <p className='list-services-subtitle'>Rubber</p>
             <img src={ListServicesIcon3} className='list-services-icon'></img>
             <img src={ListServicesIconBg3}className='list-services-icon-bg'></img>
+            <p className='list-services-subtitle'>Esmalte Gel</p>
             <img src={ListServicesIcon4} className='list-services-icon'></img>
             <img src={ListServicesIconBg4}className='list-services-icon-bg'></img>
+            <p className='list-services-subtitle'>Polygel</p>
         </div>
         </>
     )

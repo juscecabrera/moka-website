@@ -2,13 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: -1rem;
     .list-services-icon {
-        margin: 3rem 0;
+        margin: 0.5rem 0;
         z-index: 1;
     }
     .list-services-icon-bg {
-        position: absolute;
-        top: 10rem;
+        position: relative;
+        bottom: 10rem;
+    }
+    .list-services-subtitle {
+        position: relative;
+        bottom: 7rem;
+        color: black;
+        font-size: 1.5rem;
+        font-weight: bold;
+        z-index: 100;
     }
 }
 
